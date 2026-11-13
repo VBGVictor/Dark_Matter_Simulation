@@ -1,0 +1,23 @@
+{
+  "base": "teia_1_8_magma",
+  "n": 256,
+  "delta_mpc_h": 0.09765625,
+  "manchas_total": 2097152,
+  "manchas_nevoa": 409888,
+  "manchas_halos": 1687264,
+  "massa_por_splat_msun_h": 620342741.9167193,
+  "exposicao": 0.1,
+  "rho_m": 83260993401.35243,
+  "corte_sigma": 3,
+  "grade": "teia_1_8_magma_nevoa256.bin.gz",
+  "halos": "teia_1_8_magma_halos256.spz",
+  "formato_grade": "camadas: κ float16 LE (N³) + R, G, B uint8 (N³ cada) da cor média ε/κ; x mais rápido",
+  "cor": "estimador A, magma (padrão) — outros filtros de cor recalculam no navegador",
+  "kappa_soma_vezes_volume": 301.18856951186126,
+  "mb_grade": 54.367846,
+  "mb_halos": 15.297637,
+  "tempo_s": {
+    "depositar": 36.4,
+    "total": 43.5
+  }
+}

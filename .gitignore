@@ -1,0 +1,30 @@
+# Dentro da Teia — o que NÃO vai para o repositório público
+
+# Uso pessoal / anotações internas
+.claude/
+BACKLOG_dark_matter_3D.md
+ARTIGOS_E_PESQUISA.md
+
+# Artigos científicos (direitos autorais das revistas) — a lista com links está em REFERENCIAS.xlsx
+/artigos/
+
+# Dados brutos do CAMELS (baixe da fonte oficial: ver README, seção "Refazer tudo do zero").
+# A barra no início limita à pasta da raiz: splats/dados/ (o que o site usa) continua indo.
+/dados/
+
+# Arquivos acima do limite de 100 MB do GitHub (regeneráveis pelos scripts)
+splats/dados/teia_completa_magma.spz
+splats/dados/teia_completa_magma_alongada.spz
+splats/dados/sub_1_8.npz
+
+# Intermediários regeneráveis do modo tempo (splats/tempo_f4.py)
+splats/dados/tempo/[0-9]*/
+
+# Registros locais de execução (têm caminhos da máquina)
+splats/dados/**/diario*.txt
+calculos/verificacao.json
+calculos/cache/
+
+# Python
+__pycache__/
+*.pyc

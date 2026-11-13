@@ -1,0 +1,31 @@
+{
+  "testes": {
+    "A1_mediana_razao": 1.1148611569618005,
+    "A1_passou": true,
+    "A2_mediana_cos": 0.992221091988744,
+    "A2_passou": true,
+    "A2_mediana_razao": 1.593907622332353,
+    "A3_mediana_cos": 0.9999029081137756,
+    "A3_passou": true,
+    "A4_max_erro_volume": 8.881784197001252e-16,
+    "A4_passou": true
+  },
+  "simulacao": {
+    "origem": "sub_1_64.npz",
+    "n": 262144,
+    "tempo_s": 16.284250299999258,
+    "vizinhos_em_2h": {
+      "p50": 244,
+      "p99": 1519,
+      "max": 10599
+    },
+    "redondas_por_poucos_vizinhos": 0,
+    "razao_eixos": {
+      "p5": 1.1693591485815413,
+      "p50": 1.5242228422077182,
+      "p95": 2.0
+    },
+    "fracao_no_limite_2x": 0.20263290405273438,
+    "mb_spz": 3.681057
+  }
+}

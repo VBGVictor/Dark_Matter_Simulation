@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dentro da Teia</title>
+  <!--
+    Visualizador do projeto Dentro da Teia (F3.1 + F3.13). Lógica em app.js, estilo em estilo.css.
+    Arquivo pelo endereço: padrão (19/10) = teia_1_8_magma.spz + detalhe 0,15 + névoa · teia_1_64_magma.spz · fatia_1_8_magma.spz ·
+    teia_1_64_magma.ply · fatia_1_8_magma.ply. Como executar: README.md na raiz do projeto.
+  -->
+  <link rel="stylesheet" href="estilo.css">
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/",
+      "@sparkjsdev/spark": "https://sparkjs.dev/releases/spark/2.3.1/spark.module.js"
+    }
+  }
+  </script>
+</head>
+<body>
+  <section id="info" class="recolhido" aria-label="Sobre a visualização">
+    <h1><button id="bt-info" aria-expanded="false" title="Mostrar/esconder as informações (tecla I)">Dentro da Teia
+      <span class="selo-sim">simulação, não foto</span> <span class="seta">▸</span></button></h1>
+    <div>Matéria escura de uma simulação real (CAMELS), hoje. Cubo de 25 Mpc/h ≈ 121 milhões de anos-luz.</div>
+    <div class="aviso">Simulação da teoria ΛCDM, não foto. Um pedaço típico do universo, não um lugar real do céu.</div>
+    <div class="estado" id="estado">carregando…</div>
+  </section>
+
+  <nav id="navegacao" aria-label="Navegação">
+    <button id="bt-voltar" title="Voltar à caixa inteira (tecla Home ou H)" aria-label="Voltar à caixa inteira">⟲</button>
+    <div class="separador"></div>
+    <button id="bt-mais" title="Aproximar (tecla +)" aria-label="Aproximar">+</button>
+    <button id="bt-menos" title="Afastar (tecla −)" aria-label="Afastar">−</button>
+    <div class="separador"></div>
+    <button id="bt-tempo" title="Tempo: a teia se formando, de ~1 bilhão de anos até hoje (tecla T)" aria-label="Tempo" aria-pressed="false">⏱</button>
+    <button id="bt-exportar" title="Exportar: salvar/abrir configuração (CSV) e gerar PDF (tecla E)" aria-label="Exportar" aria-pressed="false">⤓</button>
+    <button id="bt-limpar" title="Limpar tudo: volta ao Universo 1, cor padrão e caixa inteira (tecla X)" aria-label="Limpar tudo">⊘</button>
+    <button id="bt-giro" title="Giro automático (tecla G); qualquer gesto devolve o controle" aria-label="Giro automático" aria-pressed="false">▶</button>
+    <button id="bt-universos" title="Universos: Ωm e σ8 de simulações reais do CAMELS (tecla U)" aria-label="Universos" aria-pressed="false">Ω</button>
+    <button id="bt-filtros" title="Filtros: estimador de densidade e paleta (tecla F)" aria-label="Filtros" aria-pressed="false">⚗</button>
+    <button id="bt-voo" title="Voo livre: W A S D, Espaço/Shift, arrastar para olhar, roda para a velocidade (tecla N)" aria-label="Voo livre" aria-pressed="false">✈︎</button>
+    <button id="bt-esqueleto" title="Esqueleto da teia e voo por ele (tecla V)" aria-label="Esqueleto da teia" aria-pressed="false">〰</button>
+    <button id="bt-marcadores" title="Ir até um aglomerado: marca os maiores halos (tecla M)" aria-label="Ir até um aglomerado" aria-pressed="false">◎</button>
+    <button id="bt-legenda" title="O que é cada mancha (tecla L)" aria-label="Legenda: o que é cada mancha" aria-pressed="false">ℹ</button>
+    <button id="bt-contorno" title="Mostrar/esconder o contorno da caixa (tecla C)" aria-label="Contorno da caixa" aria-pressed="true">▢</button>
+  </nav>
+
+  <div id="dica">Arrastar: girar · Botão direito: mover · Roda: zoom · H: voltar · C: contorno · L: legenda · M: aglomerados · F: filtros · U: universos · G: girar · X: limpar tudo · I: informações · E: exportar · T: tempo · V: esqueleto e passeio · N: voo livre</div>
+
+  <div id="carregando" role="status">Carregando a teia…</div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

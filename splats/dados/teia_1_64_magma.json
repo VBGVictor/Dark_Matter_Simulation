@@ -1,0 +1,9 @@
+{
+  "arquivo": "teia_1_64_magma.spz",
+  "n_splats": 262144,
+  "massa_por_splat_msun_h": 4962741935.333755,
+  "massa_por_splat_msun": 7394936574.778356,
+  "grao_mpc_h": 0.00851514469832182,
+  "origem": "sub_1_64.npz",
+  "nota": "grão = σ mediano das 10 % manchas mais densas; aviso de limite de detalhe"
+}

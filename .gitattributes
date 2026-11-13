@@ -1,0 +1,17 @@
+# Arquivos binários: o Git nunca converte fim de linha neles (no Windows, core.autocrlf
+# poderia corromper os dados da teia).
+*.spz binary
+*.bin binary
+*.gz binary
+*.npz binary
+*.ply binary
+*.png binary
+*.xlsx binary
+
+# Texto com fim de linha normalizado
+*.py text eol=lf
+*.js text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+*.json text eol=lf

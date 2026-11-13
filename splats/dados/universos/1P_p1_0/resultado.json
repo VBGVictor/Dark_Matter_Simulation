@@ -1,0 +1,23 @@
+{
+  "sim": "1P_p1_0",
+  "omega_m": 0.3,
+  "sigma8": 0.8,
+  "h": 0.6711,
+  "seed": 67.0,
+  "massa_particula_msun_h": 77546567.06246458,
+  "n": 16777216,
+  "versoes": {
+    "1_8": {
+      "mb": 19.248805,
+      "rho_A_mediana_sobre_media_ref": 69.47285461425781
+    },
+    "1_64": {
+      "mb": 2.624356,
+      "rho_A_mediana_sobre_media_ref": 69.47285461425781
+    }
+  },
+  "tempo_s": {
+    "baixar": 301,
+    "total": 402
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "arquivo": "teia_completa_magma_alongada.spz",
+  "n_splats": 16777216,
+  "massa_por_splat_msun_h": 77542842.73958991,
+  "massa_por_splat_msun": 115545883.9809118,
+  "grao_mpc_h": 0.0016020841430872679,
+  "origem": "snapshot_090.hdf5 inteiro, manchas alongadas",
+  "nota": "grão = σ mediano das 10 % manchas mais densas; aviso de limite de detalhe"
+}

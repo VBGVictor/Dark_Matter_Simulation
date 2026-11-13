@@ -1,0 +1,270 @@
+{
+  "testes": {
+    "normalizacao_kernel": 0.9999999999999999,
+    "alfa_sigma_sobre_h": 0.2738612787525831,
+    "estimador_padrao": "A_knn",
+    "por_estimador": {
+      "A_knn": {
+        "T1_grade_regular": {
+          "media_rho_sobre_rhobar": 0.9250882267951965,
+          "passou": false
+        },
+        "T2_aleatorio": {
+          "media_rho_sobre_rhobar": 1.0011107921600342,
+          "passou": true
+        },
+        "T3_nfw": {
+          "pior_desvio": 0.03119503457554018,
+          "faixas": [
+            {
+              "r_de": 0.049999999999999996,
+              "r_ate": 0.07937005259840996,
+              "n": 7886,
+              "mediana_rho_est_sobre_verdadeiro": 0.9688049654244598
+            },
+            {
+              "r_de": 0.07937005259840996,
+              "r_ate": 0.1259921049894873,
+              "n": 13955,
+              "mediana_rho_est_sobre_verdadeiro": 0.9770165751703276
+            },
+            {
+              "r_de": 0.1259921049894873,
+              "r_ate": 0.19999999999999998,
+              "n": 22362,
+              "mediana_rho_est_sobre_verdadeiro": 0.9879089620970998
+            },
+            {
+              "r_de": 0.19999999999999998,
+              "r_ate": 0.31748021039363983,
+              "n": 31528,
+              "mediana_rho_est_sobre_verdadeiro": 0.982231825268765
+            },
+            {
+              "r_de": 0.31748021039363983,
+              "r_ate": 0.5039684199579493,
+              "n": 40853,
+              "mediana_rho_est_sobre_verdadeiro": 0.9810737943546524
+            },
+            {
+              "r_de": 0.5039684199579493,
+              "r_ate": 0.8,
+              "n": 49375,
+              "mediana_rho_est_sobre_verdadeiro": 0.9867474008239746
+            }
+          ],
+          "passou": true
+        }
+      },
+      "C_sph_sem_propria": {
+        "T1_grade_regular": {
+          "media_rho_sobre_rhobar": 0.6816624999046326,
+          "passou": false
+        },
+        "T2_aleatorio": {
+          "media_rho_sobre_rhobar": 1.0028480291366577,
+          "passou": true
+        },
+        "T3_nfw": {
+          "pior_desvio": 0.054548711310315134,
+          "faixas": [
+            {
+              "r_de": 0.049999999999999996,
+              "r_ate": 0.07937005259840996,
+              "n": 7886,
+              "mediana_rho_est_sobre_verdadeiro": 0.9454512886896849
+            },
+            {
+              "r_de": 0.07937005259840996,
+              "r_ate": 0.1259921049894873,
+              "n": 13955,
+              "mediana_rho_est_sobre_verdadeiro": 0.9551153317551259
+            },
+            {
+              "r_de": 0.1259921049894873,
+              "r_ate": 0.19999999999999998,
+              "n": 22362,
+              "mediana_rho_est_sobre_verdadeiro": 0.9604963485895261
+            },
+            {
+              "r_de": 0.19999999999999998,
+              "r_ate": 0.31748021039363983,
+              "n": 31528,
+              "mediana_rho_est_sobre_verdadeiro": 0.9536644304731019
+            },
+            {
+              "r_de": 0.31748021039363983,
+              "r_ate": 0.5039684199579493,
+              "n": 40853,
+              "mediana_rho_est_sobre_verdadeiro": 0.954861891695897
+            },
+            {
+              "r_de": 0.5039684199579493,
+              "r_ate": 0.8,
+              "n": 49375,
+              "mediana_rho_est_sobre_verdadeiro": 0.9589229902387242
+            }
+          ],
+          "passou": true
+        }
+      },
+      "B_sph_gadget": {
+        "T1_grade_regular": {
+          "media_rho_sobre_rhobar": 0.9999726414680481,
+          "passou": true
+        },
+        "T2_aleatorio": {
+          "media_rho_sobre_rhobar": 1.3473161458969116,
+          "passou": false
+        },
+        "T3_nfw": {
+          "pior_desvio": 0.30119846969329833,
+          "faixas": [
+            {
+              "r_de": 0.049999999999999996,
+              "r_ate": 0.07937005259840996,
+              "n": 7886,
+              "mediana_rho_est_sobre_verdadeiro": 1.278891426713261
+            },
+            {
+              "r_de": 0.07937005259840996,
+              "r_ate": 0.1259921049894873,
+              "n": 13955,
+              "mediana_rho_est_sobre_verdadeiro": 1.2922096236660852
+            },
+            {
+              "r_de": 0.1259921049894873,
+              "r_ate": 0.19999999999999998,
+              "n": 22362,
+              "mediana_rho_est_sobre_verdadeiro": 1.3011984696932983
+            },
+            {
+              "r_de": 0.19999999999999998,
+              "r_ate": 0.31748021039363983,
+              "n": 31528,
+              "mediana_rho_est_sobre_verdadeiro": 1.2921656149945426
+            },
+            {
+              "r_de": 0.31748021039363983,
+              "r_ate": 0.5039684199579493,
+              "n": 40853,
+              "mediana_rho_est_sobre_verdadeiro": 1.2937026873701158
+            },
+            {
+              "r_de": 0.5039684199579493,
+              "r_ate": 0.8,
+              "n": 49375,
+              "mediana_rho_est_sobre_verdadeiro": 1.2995323965625307
+            }
+          ],
+          "passou": false
+        }
+      },
+      "D_wendland_dehnen_aly": {
+        "T1_grade_regular": {
+          "media_rho_sobre_rhobar": 0.9975595474243164,
+          "passou": true
+        },
+        "T2_aleatorio": {
+          "media_rho_sobre_rhobar": 1.4158082008361816,
+          "passou": false
+        },
+        "T3_nfw": {
+          "pior_desvio": 0.3598713286421735,
+          "faixas": [
+            {
+              "r_de": 0.049999999999999996,
+              "r_ate": 0.07937005259840996,
+              "n": 7886,
+              "mediana_rho_est_sobre_verdadeiro": 1.3371675369226592
+            },
+            {
+              "r_de": 0.07937005259840996,
+              "r_ate": 0.1259921049894873,
+              "n": 13955,
+              "mediana_rho_est_sobre_verdadeiro": 1.3520771967898544
+            },
+            {
+              "r_de": 0.1259921049894873,
+              "r_ate": 0.19999999999999998,
+              "n": 22362,
+              "mediana_rho_est_sobre_verdadeiro": 1.3593417115602704
+            },
+            {
+              "r_de": 0.19999999999999998,
+              "r_ate": 0.31748021039363983,
+              "n": 31528,
+              "mediana_rho_est_sobre_verdadeiro": 1.3522947934105332
+            },
+            {
+              "r_de": 0.31748021039363983,
+              "r_ate": 0.5039684199579493,
+              "n": 40853,
+              "mediana_rho_est_sobre_verdadeiro": 1.3551932000325106
+            },
+            {
+              "r_de": 0.5039684199579493,
+              "r_ate": 0.8,
+              "n": 49375,
+              "mediana_rho_est_sobre_verdadeiro": 1.3598713286421735
+            }
+          ],
+          "passou": false
+        }
+      }
+    }
+  },
+  "simulacao": {
+    "fracao": 1.0,
+    "n_particulas": 16777216,
+    "massa_por_particula_msun_h": 77542842.73958991,
+    "tempo_leitura_s": 0.9499930000019958,
+    "tempo_densidades_s": 70.66783799999394,
+    "memoria_processo_gb": 0.852299776,
+    "T4_informativo_soma_volumes_sobre_caixa": {
+      "A_knn": 0.8133005118771082,
+      "C_sph_sem_propria": 1.163821523404671,
+      "B_sph_gadget": 0.7106021689463232,
+      "D_wendland_dehnen_aly": 0.6808350442609455
+    },
+    "rho_sobre_media": {
+      "A_knn": {
+        "p1": 0.0768359825015068,
+        "p50": 74.0257568359375,
+        "p99": 185376.8125,
+        "max": 4826897.5
+      },
+      "C_sph_sem_propria": {
+        "p1": 0.04361599683761597,
+        "p50": 73.53675842285156,
+        "p99": 200718.390625,
+        "max": 7123272.0
+      },
+      "B_sph_gadget": {
+        "p1": 0.07598680257797241,
+        "p50": 101.62629699707031,
+        "p99": 264299.46875,
+        "max": 8571847.0
+      },
+      "D_wendland_dehnen_aly": {
+        "p1": 0.07819102704524994,
+        "p50": 107.68118286132812,
+        "p99": 278494.46875,
+        "max": 9434226.0
+      }
+    },
+    "discordancia_C_sobre_A": {
+      "p5": 0.3978007733821869,
+      "p50": 0.9957419633865356,
+      "p95": 2.862571954727173
+    },
+    "h_kpc_h": {
+      "min": 1.1260777711868286,
+      "p1": 3.3376383781433105,
+      "p50": 45.32419967651367,
+      "p99": 447.64752197265625,
+      "max": 722.25244140625
+    },
+    "alfa_sigma_sobre_h": 0.2738612787525831
+  }
+}

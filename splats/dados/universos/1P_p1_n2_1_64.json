@@ -1,0 +1,17 @@
+{
+  "arquivo": "universos/1P_p1_n2_1_64.spz",
+  "n_splats": 262144,
+  "massa_por_splat_msun_h": 1654326763.9992445,
+  "massa_por_splat_msun": 2465097249.291081,
+  "grao_mpc_h": 0.012889130972325802,
+  "origem": "CAMELS IllustrisTNG_DM/1P/1P_p1_n2/snapshot_090.hdf5, subamostra 1_64 (semente 20261014)",
+  "universo": {
+    "sim": "1P_p1_n2",
+    "omega_m": 0.1,
+    "sigma8": 0.8,
+    "h": 0.6711,
+    "seed": 67.0
+  },
+  "convencao": "cor e exposição com a densidade média da referência (Ωm = 0,3) para todos os universos",
+  "nota": "grão = σ mediano das 10 % manchas mais densas; aviso de limite de detalhe"
+}

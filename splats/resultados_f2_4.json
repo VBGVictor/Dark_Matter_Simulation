@@ -1,0 +1,38 @@
+[
+  {
+    "arquivo": "teia_1_64_magma.ply",
+    "n_splats": 262144,
+    "mb": 17.826208,
+    "bytes_por_splat": 68.0015869140625,
+    "alfa_percentis": {
+      "p5": 0.01,
+      "p50": 0.15664732248844015,
+      "p95": 0.99
+    },
+    "P1_erros": {
+      "pos_abs_mpc_h": 4.76837158203125e-07,
+      "sigma_rel": 4.172325134277344e-07,
+      "rgb_abs": 7.430267334740392e-08,
+      "alfa_abs": 8.925964656292251e-08
+    },
+    "P1_passou": true
+  },
+  {
+    "arquivo": "fatia_1_8_magma.ply",
+    "n_splats": 319406,
+    "mb": 21.720024,
+    "bytes_por_splat": 68.00130241761269,
+    "alfa_percentis": {
+      "p5": 0.01,
+      "p50": 0.07744674144723018,
+      "p95": 0.99
+    },
+    "P1_erros": {
+      "pos_abs_mpc_h": 4.76837158203125e-07,
+      "sigma_rel": 4.172325134277344e-07,
+      "rgb_abs": 7.430267334740392e-08,
+      "alfa_abs": 9.788928689857812e-08
+    },
+    "P1_passou": true
+  }
+]

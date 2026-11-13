@@ -1,0 +1,220 @@
+{
+  "cosmologia": {
+    "omega_m": 0.3,
+    "omega_b": 0.049,
+    "h": 0.6711,
+    "n_s": 0.9624,
+    "sigma_8": 0.8,
+    "omega_l": 0.7
+  },
+  "simulacao": {
+    "caixa_mpc_h": 25.0,
+    "n_lado": 256,
+    "softening_kpc": 0.5
+  },
+  "fundo": {
+    "rho_crit_0_msun_h_por_mpc_h3": 277536644671.1748,
+    "rho_media_materia_msun_h_por_mpc_h3": 83260993401.35243,
+    "idade_universo": {
+      "analitica_gyr": 14.046920807508506,
+      "numerica_gyr": 14.046920807508506
+    },
+    "idade_em_z127_milhoes_anos": 12.245947924195406,
+    "caixa_mpc_sem_h": 37.2522723886157,
+    "caixa_milhoes_anos_luz": 121.50067054090297,
+    "z_igualdade_materia_lambda": 0.3263524026321307
+  },
+  "crescimento": {
+    "D_z0_sem_normalizar": 0.7789810167685525,
+    "supressao_vs_einstein_de_sitter": 0.7789810167685525,
+    "D_z127_normalizado": 0.01002912548058409,
+    "f_z0": 0.512796250992022,
+    "f_z0_aprox_linder_om055": 0.5157232253540304
+  },
+  "espectro": {
+    "amplitude_A": 3264547.1639131983,
+    "sigma8_conferencia": 0.8000000000000002,
+    "k_fundamental_caixa_h_mpc": 0.25132741228718347,
+    "k_nyquist_particulas_h_mpc": 32.169908772759484,
+    "k_nao_linear_z0_h_mpc": 0.26263763335859075,
+    "sigma8_so_com_modos_da_caixa": 0.38722026100208284,
+    "conferencia_com_CAMB_da_simulacao": {
+      "k_min_max_arquivo": [
+        2e-05,
+        200.00000000000014
+      ],
+      "sigma8_do_arquivo": 0.7985523826797952,
+      "razao_EH_sobre_CAMB_na_faixa_da_caixa_min_max": [
+        0.9675415255201151,
+        1.0016641901336623
+      ]
+    }
+  },
+  "halos_esperados_na_caixa": {
+    "normalizacao_sheth_tormen_A": 0.32295462409914255,
+    "tabela": [
+      {
+        "M_min_msun_h": 10000000000.0,
+        "particulas_por_halo": 128.96096721115495,
+        "N_maior_que_M_tinker08_200m": 4180.65869116027,
+        "N_maior_que_M_sheth_tormen_fof": 3975.309962469314,
+        "N_maior_que_M_tinker_so_modos_da_caixa": 4570.447028007906
+      },
+      {
+        "M_min_msun_h": 100000000000.0,
+        "particulas_por_halo": 1289.6096721115496,
+        "N_maior_que_M_tinker08_200m": 540.5960632289945,
+        "N_maior_que_M_sheth_tormen_fof": 512.5555234048202,
+        "N_maior_que_M_tinker_so_modos_da_caixa": 628.0664678743327
+      },
+      {
+        "M_min_msun_h": 1000000000000.0,
+        "particulas_por_halo": 12896.096721115495,
+        "N_maior_que_M_tinker08_200m": 68.88548418090318,
+        "N_maior_que_M_sheth_tormen_fof": 63.36058882350601,
+        "N_maior_que_M_tinker_so_modos_da_caixa": 86.11766737982632
+      },
+      {
+        "M_min_msun_h": 10000000000000.0,
+        "particulas_por_halo": 128960.96721115496,
+        "N_maior_que_M_tinker08_200m": 7.538907688143414,
+        "N_maior_que_M_sheth_tormen_fof": 6.604127532383332,
+        "N_maior_que_M_tinker_so_modos_da_caixa": 8.382855310399613
+      },
+      {
+        "M_min_msun_h": 100000000000000.0,
+        "particulas_por_halo": 1289609.6721115496,
+        "N_maior_que_M_tinker08_200m": 0.45091134427057705,
+        "N_maior_que_M_sheth_tormen_fof": 0.38779162865278877,
+        "N_maior_que_M_tinker_so_modos_da_caixa": 0.03624033635135434
+      }
+    ]
+  },
+  "virial": {
+    "Delta_c_bryan_norman_z0_vs_critica": 101.14287921960845,
+    "Delta_vir_z0_vs_media": 337.14293073202816
+  },
+  "modelo_concentracao_usado": "diemer19",
+  "halos_nfw": {
+    "anao_1e10": {
+      "M200c_msun_h": 10000000000.0,
+      "M200c_msun": 14900908955.446281,
+      "R200c_kpc_h": 35.03647082687403,
+      "concentracao_c200": 12.060620122923165,
+      "raio_de_escala_rs_kpc_h": 2.905030626102014,
+      "delta_c_nfw": 71046.64827944759,
+      "V200_km_s": 35.036470826874016,
+      "particulas_no_halo": 128.96096721115495,
+      "rs_sobre_softening": 5.810061252204028
+    },
+    "via_lactea_1e12_msun": {
+      "M200c_msun_h": 671100000000.0,
+      "M200c_msun": 1000000000000.0,
+      "R200c_kpc_h": 142.38014583975828,
+      "concentracao_c200": 7.942768625845895,
+      "raio_de_escala_rs_kpc_h": 17.925757698197454,
+      "delta_c_nfw": 25644.304386023556,
+      "V200_km_s": 142.38014583975826,
+      "particulas_no_halo": 8654.570509540608,
+      "rs_sobre_softening": 35.85151539639491
+    },
+    "grupo_1e13": {
+      "M200c_msun_h": 10000000000000.0,
+      "M200c_msun": 14900908955446.281,
+      "R200c_kpc_h": 350.36470826874023,
+      "concentracao_c200": 5.711015406186811,
+      "raio_de_escala_rs_kpc_h": 61.348934182384795,
+      "delta_c_nfw": 11795.592681990314,
+      "V200_km_s": 350.36470826874023,
+      "particulas_no_halo": 128960.96721115496,
+      "rs_sobre_softening": 122.69786836476959
+    }
+  },
+  "halos_nfw_comparacao_modelos": {
+    "anao_1e10": {
+      "diemer19": {
+        "c200": 12.060620122923165,
+        "rs_kpc_h": 2.905030626102014
+      },
+      "ludlow16": {
+        "c200": 11.378182361391579,
+        "rs_kpc_h": 3.0792678227552144
+      },
+      "duffy08_z0": {
+        "c200": 9.596476452356365,
+        "rs_kpc_h": 3.6509724168885973
+      },
+      "duffy08_z0-2": {
+        "c200": 8.910921706759654,
+        "rs_kpc_h": 3.9318571052303195
+      }
+    },
+    "via_lactea_1e12_msun": {
+      "diemer19": {
+        "c200": 7.942768625845895,
+        "rs_kpc_h": 17.925757698197454
+      },
+      "ludlow16": {
+        "c200": 8.15699082311787,
+        "rs_kpc_h": 17.454984188070462
+      },
+      "duffy08_z0": {
+        "c200": 6.381362851689428,
+        "rs_kpc_h": 22.311871170601744
+      },
+      "duffy08_z0-2": {
+        "c200": 6.258532326999135,
+        "rs_kpc_h": 22.749765983557243
+      }
+    },
+    "grupo_1e13": {
+      "diemer19": {
+        "c200": 5.711015406186811,
+        "rs_kpc_h": 61.348934182384795
+      },
+      "ludlow16": {
+        "c200": 6.210910028704456,
+        "rs_kpc_h": 56.41117109239842
+      },
+      "duffy08_z0": {
+        "c200": 4.910342685861045,
+        "rs_kpc_h": 71.35239446273037
+      },
+      "duffy08_z0-2": {
+        "c200": 4.987956161686498,
+        "rs_kpc_h": 70.24213864587715
+      }
+    }
+  },
+  "resolucao": {
+    "massa_particula_msun_h": 77542842.73958991,
+    "separacao_media_entre_particulas_kpc_h": 97.65625,
+    "n_particulas": 16777216
+  },
+  "orcamento_splats": [
+    {
+      "fracao": "completa (256³)",
+      "n_splats": 16777216,
+      "massa_por_splat_msun_h": 77542842.73958991,
+      "separacao_media_kpc_h": 97.65625,
+      "mb_ply_grau3": 4160.749568,
+      "mb_ply_grau0": 939.524096
+    },
+    {
+      "fracao": "1/8 (128³ equiv.)",
+      "n_splats": 2097152,
+      "massa_por_splat_msun_h": 620342741.9167193,
+      "separacao_media_kpc_h": 195.3125,
+      "mb_ply_grau3": 520.093696,
+      "mb_ply_grau0": 117.440512
+    },
+    {
+      "fracao": "1/64 (64³ equiv.)",
+      "n_splats": 262144,
+      "massa_por_splat_msun_h": 4962741935.333755,
+      "separacao_media_kpc_h": 390.62499999999994,
+      "mb_ply_grau3": 65.011712,
+      "mb_ply_grau0": 14.680064
+    }
+  ]
+}

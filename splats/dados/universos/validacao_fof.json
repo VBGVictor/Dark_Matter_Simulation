@@ -1,0 +1,69 @@
+{
+  "criterio": "10 maiores do Rockstar com grupo FoF a < 0,3 Mpc/h e mediana FoF/Mvir em [0,8; 1,25]",
+  "passou": true,
+  "distancia_max_mpc_h": 0.09406938928259298,
+  "razao_massa_mediana": 1.026929664609204,
+  "n_grupos_fof": 3852,
+  "detalhe": [
+    {
+      "rockstar_massa_msun": 74966000000000.0,
+      "fof_massa_msun": 82313000000000.0,
+      "distancia_mpc_h": 0.03005827673037815,
+      "posicao_fof": 1
+    },
+    {
+      "rockstar_massa_msun": 38757000000000.0,
+      "fof_massa_msun": 39424000000000.0,
+      "distancia_mpc_h": 0.03381878176398537,
+      "posicao_fof": 2
+    },
+    {
+      "rockstar_massa_msun": 37684000000000.0,
+      "fof_massa_msun": 38339000000000.0,
+      "distancia_mpc_h": 0.03326649966557936,
+      "posicao_fof": 3
+    },
+    {
+      "rockstar_massa_msun": 33140000000000.0,
+      "fof_massa_msun": 33980000000000.0,
+      "distancia_mpc_h": 0.0038052595180887443,
+      "posicao_fof": 4
+    },
+    {
+      "rockstar_massa_msun": 32126000000000.0,
+      "fof_massa_msun": 33354000000000.0,
+      "distancia_mpc_h": 0.09406938928259298,
+      "posicao_fof": 5
+    },
+    {
+      "rockstar_massa_msun": 30934000000000.0,
+      "fof_massa_msun": 31816000000000.0,
+      "distancia_mpc_h": 0.02953523319698037,
+      "posicao_fof": 6
+    },
+    {
+      "rockstar_massa_msun": 25942000000000.0,
+      "fof_massa_msun": 27967000000000.0,
+      "distancia_mpc_h": 0.032213351269310665,
+      "posicao_fof": 7
+    },
+    {
+      "rockstar_massa_msun": 23201000000000.0,
+      "fof_massa_msun": 25460000000000.0,
+      "distancia_mpc_h": 0.06220273305892588,
+      "posicao_fof": 8
+    },
+    {
+      "rockstar_massa_msun": 21964000000000.0,
+      "fof_massa_msun": 21881000000000.0,
+      "distancia_mpc_h": 0.025504509405200538,
+      "posicao_fof": 9
+    },
+    {
+      "rockstar_massa_msun": 11705000000000.0,
+      "fof_massa_msun": 11576000000000.0,
+      "distancia_mpc_h": 0.03866510054299529,
+      "posicao_fof": 12
+    }
+  ]
+}

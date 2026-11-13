@@ -1,0 +1,35 @@
+
+Nmesh            512
+Nsample          256       
+Box              25000.0   
+FileBase         ics         
+OutputDir        ./
+GlassFile        /simons/scratch/fvillaescusa/CAMEL/Software/2lpt/GLASS/dummy_glass_dmonly_64.dat   
+GlassTileFac     4         
+Omega            0.3000    
+OmegaLambda      0.7000    
+OmegaBaryon      0.00
+OmegaDM_2ndSpecies  0.0    
+HubbleParam      0.6711    
+Redshift         127       
+Sigma8           1.0000       
+SphereMode       0         
+WhichSpectrum    2         
+FileWithInputSpectrum   ./Pk_m_z=0.000.txt
+InputSpectrum_UnitLength_in_cm  3.085678e24 
+ShapeGamma       0.201     
+PrimordialIndex  1.0       
+    
+Phase_flip          0      
+RayleighSampling    1      
+Seed                67      
+    
+NumFilesWrittenInParallel 8  
+UnitLength_in_cm          3.085678e21  
+UnitMass_in_g             1.989e43     
+UnitVelocity_in_cm_per_s  1e5          
+    
+WDM_On               0      
+WDM_Vtherm_On        0      
+WDM_PartMass_in_kev  10.0   
+    

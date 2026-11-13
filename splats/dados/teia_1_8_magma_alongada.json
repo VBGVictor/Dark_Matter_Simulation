@@ -1,0 +1,9 @@
+{
+  "arquivo": "teia_1_8_magma_alongada.spz",
+  "n_splats": 2097152,
+  "massa_por_splat_msun_h": 620342741.9167193,
+  "massa_por_splat_msun": 924367071.8472944,
+  "grao_mpc_h": 0.0035554184578359127,
+  "origem": "sub_1_8.npz",
+  "nota": "grão = σ mediano das 10 % manchas mais densas; aviso de limite de detalhe"
+}

@@ -1,0 +1,73 @@
+{
+  "fonte": "CAMELS IllustrisTNG_DM/CV/CV_0, Rockstar hlist_1.00000.list (z = 0), só halos principais",
+  "definicao_massa": "Mvir (Bryan & Norman 1998), dentro do raio virial; Rockstar guarda grupos com >= 100 partículas",
+  "convencao": "fronteiras em potências de 10 de M☉ e nomes = uso comum da área, não física",
+  "massa_particula_msun": 115545883.9809118,
+  "total_halos_principais": 5958,
+  "classes": [
+    {
+      "nome": "Halo anão",
+      "faixa_msun": [
+        0.0,
+        100000000000.0
+      ],
+      "quantos": 5234,
+      "massa_mediana_msun": 16987036209.208761,
+      "massa_min_msun": 346595142.3036805,
+      "massa_max_msun": 99955297273.13365,
+      "particulas_mediana": 147,
+      "raio_mediano_kpc": 68.45477574132022,
+      "raio_mediano_anos_luz": 223269.61692054835
+    },
+    {
+      "nome": "Halo de galáxia",
+      "faixa_msun": [
+        100000000000.0,
+        1000000000000.0
+      ],
+      "quantos": 626,
+      "massa_mediana_msun": 190806139174.48962,
+      "massa_min_msun": 100178810907.46535,
+      "massa_max_msun": 997615854567.1285,
+      "particulas_mediana": 1651,
+      "raio_mediano_kpc": 153.29980628818356,
+      "raio_mediano_anos_luz": 499997.0952106563
+    },
+    {
+      "nome": "Halo tipo Via Láctea",
+      "faixa_msun": [
+        1000000000000.0,
+        10000000000000.0
+      ],
+      "quantos": 83,
+      "massa_mediana_msun": 1884964982863.9546,
+      "massa_min_msun": 1002533154522.4258,
+      "massa_max_msun": 9596185367307.406,
+      "particulas_mediana": 16314,
+      "raio_mediano_kpc": 328.97630755476087,
+      "raio_mediano_anos_luz": 1072977.2082118194
+    },
+    {
+      "nome": "Grupo de galáxias",
+      "faixa_msun": [
+        10000000000000.0,
+        100000000000000.0
+      ],
+      "quantos": 15,
+      "massa_mediana_msun": 23200715243629.86,
+      "massa_min_msun": 10245864997764.863,
+      "massa_max_msun": 74966472954850.25,
+      "particulas_mediana": 200792,
+      "raio_mediano_kpc": 759.5455222768588,
+      "raio_mediano_anos_luz": 2477306.1624407494
+    },
+    {
+      "nome": "Aglomerado de galáxias",
+      "faixa_msun": [
+        100000000000000.0,
+        null
+      ],
+      "quantos": 0
+    }
+  ]
+}

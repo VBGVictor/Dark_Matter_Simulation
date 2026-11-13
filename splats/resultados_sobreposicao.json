@@ -1,0 +1,294 @@
+{
+  "modelo": {
+    "a_ms": 39.14151476735247,
+    "b_ms_por_megapixel": 0.18150940785242145,
+    "erro_relativo_max": 0.42218333835136557,
+    "erro_relativo_medio": 0.2993994916559638
+  },
+  "explicacao_medicoes": [
+    {
+      "arquivo": "teia_1_64_magma",
+      "vista": "de frente",
+      "qps_medido": 30,
+      "splats_desenhados": 262144,
+      "pixels_pintados": 90656484.40949257,
+      "sobreposicao_media": 54.33477441113622,
+      "qps_modelo": 17.98673743833737
+    },
+    {
+      "arquivo": "teia_1_64_magma",
+      "vista": "de perto",
+      "qps_medido": 8,
+      "splats_desenhados": 190884,
+      "pixels_pintados": 592796769.8297058,
+      "sobreposicao_media": 355.29150474066563,
+      "qps_modelo": 6.814788110886232
+    },
+    {
+      "arquivo": "teia_1_64_magma",
+      "vista": "girada",
+      "qps_medido": 29,
+      "splats_desenhados": 262144,
+      "pixels_pintados": 91056590.43976402,
+      "sobreposicao_media": 54.574577123947556,
+      "qps_modelo": 17.963272895365424
+    },
+    {
+      "arquivo": "teia_1_8_magma",
+      "vista": "de frente",
+      "qps_medido": 10,
+      "splats_desenhados": 2097152,
+      "pixels_pintados": 171742655.17900997,
+      "sobreposicao_media": 102.93360134913812,
+      "qps_modelo": 14.221833383513657
+    },
+    {
+      "arquivo": "teia_1_8_magma",
+      "vista": "de perto",
+      "qps_medido": 4,
+      "splats_desenhados": 1526627,
+      "pixels_pintados": 1129307730.2831786,
+      "sobreposicao_media": 676.8482272986063,
+      "qps_modelo": 4.0963210207086656
+    },
+    {
+      "arquivo": "teia_1_8_magma",
+      "vista": "girada",
+      "qps_medido": 10,
+      "splats_desenhados": 2097152,
+      "pixels_pintados": 172075350.7187183,
+      "sobreposicao_media": 103.1330017253538,
+      "qps_modelo": 14.209629881677387
+    }
+  ],
+  "comparacao_ajustes": [
+    {
+      "arquivo": "teia_1_64_magma",
+      "ajuste": "padrão (√8, 512 px)",
+      "de frente": {
+        "sobreposicao": 54.33477441113622,
+        "splats": 262144,
+        "qps_previsto": 17.98673743833737
+      },
+      "de perto": {
+        "sobreposicao": 355.29150474066563,
+        "splats": 190884,
+        "qps_previsto": 6.814788110886232
+      },
+      "girada": {
+        "sobreposicao": 54.574577123947556,
+        "splats": 262144,
+        "qps_previsto": 17.963272895365424
+      }
+    },
+    {
+      "arquivo": "teia_1_64_magma",
+      "ajuste": "maxStdDev = 2",
+      "de frente": {
+        "sobreposicao": 27.16738720556811,
+        "splats": 262144,
+        "qps_previsto": 21.11084543793269
+      },
+      "de perto": {
+        "sobreposicao": 177.6540846342568,
+        "splats": 190884,
+        "qps_previsto": 10.759267118594169
+      },
+      "girada": {
+        "sobreposicao": 27.287288561973774,
+        "splats": 262144,
+        "qps_previsto": 21.094674965610352
+      }
+    },
+    {
+      "arquivo": "teia_1_64_magma",
+      "ajuste": "maxPixelRadius = 64",
+      "de frente": {
+        "sobreposicao": 54.33477441113622,
+        "splats": 262144,
+        "qps_previsto": 17.98673743833737
+      },
+      "de perto": {
+        "sobreposicao": 243.72627627965545,
+        "splats": 190884,
+        "qps_previsto": 8.853259104233917
+      },
+      "girada": {
+        "sobreposicao": 54.574577123947556,
+        "splats": 262144,
+        "qps_previsto": 17.963272895365424
+      }
+    },
+    {
+      "arquivo": "teia_1_64_magma",
+      "ajuste": "maxStdDev 2 + maxPixelRadius 64",
+      "de frente": {
+        "sobreposicao": 27.16738720556811,
+        "splats": 262144,
+        "qps_previsto": 21.11084543793269
+      },
+      "de perto": {
+        "sobreposicao": 144.41288284894065,
+        "splats": 190884,
+        "qps_previsto": 12.066189155044148
+      },
+      "girada": {
+        "sobreposicao": 27.287288561973774,
+        "splats": 262144,
+        "qps_previsto": 21.094674965610352
+      }
+    },
+    {
+      "arquivo": "teia_1_64_magma",
+      "ajuste": "maxStdDev 2 + maxPixelRadius 32",
+      "de frente": {
+        "sobreposicao": 27.167116109172888,
+        "splats": 262144,
+        "qps_previsto": 21.110882027383653
+      },
+      "de perto": {
+        "sobreposicao": 95.04119454113946,
+        "splats": 190884,
+        "qps_previsto": 14.722282993969209
+      },
+      "girada": {
+        "sobreposicao": 27.280788667789928,
+        "splats": 262144,
+        "qps_previsto": 21.09555093744352
+      }
+    },
+    {
+      "arquivo": "teia_1_64_magma",
+      "ajuste": "minAlpha = 0,05 (pula manchas quase transparentes)",
+      "de frente": {
+        "sobreposicao": 5.436429087926259,
+        "splats": 172423,
+        "qps_previsto": 24.517069423730334
+      },
+      "de perto": {
+        "sobreposicao": 56.32228363489537,
+        "splats": 128336,
+        "qps_previsto": 17.794092528834966
+      },
+      "girada": {
+        "sobreposicao": 5.09029411278968,
+        "splats": 172423,
+        "qps_previsto": 24.580240797246738
+      }
+    },
+    {
+      "arquivo": "teia_1_8_magma",
+      "ajuste": "padrão (√8, 512 px)",
+      "de frente": {
+        "sobreposicao": 102.93360134913812,
+        "splats": 2097152,
+        "qps_previsto": 14.221833383513657
+      },
+      "de perto": {
+        "sobreposicao": 676.8482272986063,
+        "splats": 1526627,
+        "qps_previsto": 4.0963210207086656
+      },
+      "girada": {
+        "sobreposicao": 103.1330017253538,
+        "splats": 2097152,
+        "qps_previsto": 14.209629881677387
+      }
+    },
+    {
+      "arquivo": "teia_1_8_magma",
+      "ajuste": "maxStdDev = 2",
+      "de frente": {
+        "sobreposicao": 51.46680067456906,
+        "splats": 2097152,
+        "qps_previsto": 18.272192916540615
+      },
+      "de perto": {
+        "sobreposicao": 338.4241136493031,
+        "splats": 1526627,
+        "qps_previsto": 7.060576040600221
+      },
+      "girada": {
+        "sobreposicao": 51.566500862676875,
+        "splats": 2097152,
+        "qps_previsto": 18.262117617845675
+      }
+    },
+    {
+      "arquivo": "teia_1_8_magma",
+      "ajuste": "maxPixelRadius = 64",
+      "de frente": {
+        "sobreposicao": 102.93360134913812,
+        "splats": 2097152,
+        "qps_previsto": 14.221833383513657
+      },
+      "de perto": {
+        "sobreposicao": 595.2987968160372,
+        "splats": 1526627,
+        "qps_previsto": 4.5573726998708395
+      },
+      "girada": {
+        "sobreposicao": 103.1330017253538,
+        "splats": 2097152,
+        "qps_previsto": 14.209629881677387
+      }
+    },
+    {
+      "arquivo": "teia_1_8_magma",
+      "ajuste": "maxStdDev 2 + maxPixelRadius 64",
+      "de frente": {
+        "sobreposicao": 51.46680067456906,
+        "splats": 2097152,
+        "qps_previsto": 18.272192916540615
+      },
+      "de perto": {
+        "sobreposicao": 318.1700654527994,
+        "splats": 1526627,
+        "qps_previsto": 7.380200709962484
+      },
+      "girada": {
+        "sobreposicao": 51.566500862676875,
+        "splats": 2097152,
+        "qps_previsto": 18.262117617845675
+      }
+    },
+    {
+      "arquivo": "teia_1_8_magma",
+      "ajuste": "maxStdDev 2 + maxPixelRadius 32",
+      "de frente": {
+        "sobreposicao": 51.46680067456906,
+        "splats": 2097152,
+        "qps_previsto": 18.272192916540615
+      },
+      "de perto": {
+        "sobreposicao": 264.01471987946445,
+        "splats": 1526627,
+        "qps_previsto": 8.396516825393501
+      },
+      "girada": {
+        "sobreposicao": 51.566500862676875,
+        "splats": 2097152,
+        "qps_previsto": 18.262117617845675
+      }
+    },
+    {
+      "arquivo": "teia_1_8_magma",
+      "ajuste": "minAlpha = 0,05 (pula manchas quase transparentes)",
+      "de frente": {
+        "sobreposicao": 4.975601393499084,
+        "splats": 1304365,
+        "qps_previsto": 24.601244661752084
+      },
+      "de perto": {
+        "sobreposicao": 49.27590528780831,
+        "splats": 969350,
+        "qps_previsto": 18.496436760692834
+      },
+      "girada": {
+        "sobreposicao": 4.619302182202819,
+        "splats": 1304365,
+        "qps_previsto": 24.666723891006818
+      }
+    }
+  ]
+}

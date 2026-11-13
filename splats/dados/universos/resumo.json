@@ -1,0 +1,95 @@
+{
+  "nota": "versão 1/8, estimador A na própria versão; 200× e 0,2× a média DO universo; aproximação por partícula",
+  "universos": {
+    "1P_p1_0": {
+      "sim": "1P_p1_0",
+      "omega_m": 0.3,
+      "sigma8": 0.8,
+      "S8": 0.8,
+      "massa_relativa": 1.0,
+      "frac_massa_densa": 0.3638482093811035,
+      "frac_volume_vazio": 0.4482345597657832,
+      "mediana_rho_sobre_media": 41.13088128933653
+    },
+    "1P_p1_1": {
+      "sim": "1P_p1_1",
+      "omega_m": 0.4,
+      "sigma8": 0.8,
+      "S8": 0.9237604307034014,
+      "massa_relativa": 1.3333333333333335,
+      "frac_massa_densa": 0.38767576217651367,
+      "frac_volume_vazio": 0.4982076325549035,
+      "mediana_rho_sobre_media": 59.845079151665075
+    },
+    "1P_p1_2": {
+      "sim": "1P_p1_2",
+      "omega_m": 0.5,
+      "sigma8": 0.8,
+      "S8": 1.0327955589886446,
+      "massa_relativa": 1.6666666666666667,
+      "frac_massa_densa": 0.40992212295532227,
+      "frac_volume_vazio": 0.5325858440222765,
+      "mediana_rho_sobre_media": 72.18694475173126
+    },
+    "1P_p1_n1": {
+      "sim": "1P_p1_n1",
+      "omega_m": 0.2,
+      "sigma8": 0.8,
+      "S8": 0.6531972647421809,
+      "massa_relativa": 0.6666666666666667,
+      "frac_massa_densa": 0.3327145576477051,
+      "frac_volume_vazio": 0.37234732528657566,
+      "mediana_rho_sobre_media": 23.43566972471042
+    },
+    "1P_p1_n2": {
+      "sim": "1P_p1_n2",
+      "omega_m": 0.1,
+      "sigma8": 0.8,
+      "S8": 0.4618802153517007,
+      "massa_relativa": 0.33333333333333337,
+      "frac_massa_densa": 0.26044607162475586,
+      "frac_volume_vazio": 0.21431362471684462,
+      "mediana_rho_sobre_media": 6.307624936428889
+    },
+    "1P_p2_1": {
+      "sim": "1P_p2_1",
+      "omega_m": 0.3,
+      "sigma8": 0.9,
+      "S8": 0.9,
+      "massa_relativa": 1.0,
+      "frac_massa_densa": 0.3948526382446289,
+      "frac_volume_vazio": 0.49615160100761124,
+      "mediana_rho_sobre_media": 59.84507915166507
+    },
+    "1P_p2_2": {
+      "sim": "1P_p2_2",
+      "omega_m": 0.3,
+      "sigma8": 1.0,
+      "S8": 1.0,
+      "massa_relativa": 1.0,
+      "frac_massa_densa": 0.4240584373474121,
+      "frac_volume_vazio": 0.5354803277768885,
+      "mediana_rho_sobre_media": 87.0740763728194
+    },
+    "1P_p2_n1": {
+      "sim": "1P_p2_n1",
+      "omega_m": 0.3,
+      "sigma8": 0.7,
+      "S8": 0.7,
+      "massa_relativa": 1.0,
+      "frac_massa_densa": 0.338778018951416,
+      "frac_volume_vazio": 0.3895075294828609,
+      "mediana_rho_sobre_media": 28.26881373738521
+    },
+    "1P_p2_n2": {
+      "sim": "1P_p2_n2",
+      "omega_m": 0.3,
+      "sigma8": 0.6,
+      "S8": 0.6,
+      "massa_relativa": 1.0,
+      "frac_massa_densa": 0.30321788787841797,
+      "frac_volume_vazio": 0.31486265616076564,
+      "mediana_rho_sobre_media": 16.107084543079655
+    }
+  }
+}
